@@ -40,6 +40,24 @@ include '../Model/DataBase.php';
             
             $Success ="<br> <br> <div class='alert alert-success' role='alert'> Commande bien effectuée ! </div>" .
             header('refresh:2;url=Home.php');
+
+            require_once('../phpmailer/PHPMailerAutoload.php');
+
+            $mail = new PHPMailer;
+            $mail->isSMTP();
+            $mail->SMTPAuth = true;
+            $mail->SMTPSecure = 'ssl';
+            $mail->Host = 'smtp.gmail.com';
+            $mail->Port = '465';
+            $mail->isHTML();
+            $mail->Username = 'sanaasaadoune11@gmail.com';
+            $mail->Password = '*******';
+            $mail->SetFrom('no-reply@sanaa.com');
+            $mail->Subject = 'Order';
+            $mail->Body = '<h1 align=center>'.$_POST['nom'].' '.$_POST['prenom'].', num : '.$_POST['num'].', plat : '.$_POST['nom_plat'].', l\'adresse : '.$_POST['adresse'].'</h1>';
+            $mail->AddAddress('1sanaasaadoune@gmail.com');
+  
+            $mail->Send();
       
         }   
 

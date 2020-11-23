@@ -135,6 +135,7 @@
                     <label for="adresse">Adresse :</label>
                     <textarea name="adresse"></textarea>
                 </div>
+                <input type="hidden" value="<?php echo $nom_plat ?>" name="nom_plat">
                 <p><button type="submit" name="Commander"> Commander </button></p>
             </form>
         </div>
