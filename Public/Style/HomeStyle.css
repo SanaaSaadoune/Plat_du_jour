@@ -128,7 +128,7 @@ body .PartPlat .platJ hr {
 
 body .PartPlat .platJ .imagePlat {
   height: 350px;
-  width: 500px;
+  width: 80%;
   margin: auto;
   border: 1px solid black;
   background-position: center;
@@ -145,13 +145,13 @@ body .PartPlat .formPlat form {
   border: 1px solid #f1f1f1;
   background-color: #f1f1f1;
   border-radius: 3px;
-  width: 500px;
+  width: 80%;
   margin: auto;
   padding: 6px;
 }
 
 body .PartPlat .formPlat form div {
-  width: 400px;
+  width: 90%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -229,8 +229,8 @@ body .PartPlat .formPlat form p button:hover {
 
 @-webkit-keyframes slide {
   0% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   100% {
     -webkit-transform: scale(1);
@@ -240,8 +240,8 @@ body .PartPlat .formPlat form p button:hover {
 
 @keyframes slide {
   0% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   100% {
     -webkit-transform: scale(1);
@@ -624,4 +624,4 @@ a img {
     font-weight: 100;
   }
 }
-/*# sourceMappingURL=Home.css.map */
+/*# sourceMappingURL=HomeStyle.css.map */

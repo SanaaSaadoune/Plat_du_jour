@@ -123,7 +123,7 @@ body{
                 }
                 .imagePlat{
                     height:350px;
-                    width: 500px;
+                    width: 80%;
                     margin: auto;
                     border: 1px solid black;
                     background-position: center;
@@ -138,11 +138,11 @@ body{
                     border: 1px solid rgb(241, 241, 241);
                     background-color: rgb(241, 241, 241);
                     border-radius: 3px;
-                    width: 500px;
+                    width: 80%;
                     margin: auto;
                     padding: 6px; 
                     div{
-                        width: 400px;
+                        width: 90%;
                         margin: auto;
                         display: flex;
                         flex-direction: column;
@@ -207,7 +207,7 @@ body{
     }
     @keyframes slide{
         0%{
-            transform:scale(1.1);
+            transform:scale(1.0);
         }
         100%{
             transform:scale(1);

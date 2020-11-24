@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="../Public/Style/Home.css">
+    <link rel="stylesheet" href="../Public/Style/HomeStyle.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -16,31 +16,31 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light style=background-color:#cacaca">
-            <img src="../Public/Images/logo.png">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" style="color: #EBBE2A;" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href="#platJour">Plat du jour</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" style="color: white;" href="#Services">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href="#AboutUs">About-Us</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" style="color: white;" href="#Contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+            <nav class="navbar navbar-expand-lg navbar-light style=background-color:#cacaca">
+                <img src="../Public/Images/logo.png">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" style="color: #EBBE2A;" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="#platJour">Plat du jour</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;" href="#AboutUs">About-Us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
 
 
             <div class="home">
@@ -116,8 +116,7 @@
             <p style="font-size:18px;color:red"> Prix : <?php echo $prix_plat ?> DH</p>
         </div>
         <div class="formPlat">
-            <p id="commande"> Remplissez ce formulaire pour commander !</p>
-            <br>
+            <p id="commande"> Remplissez ce formulaire pour commander !</p><br>
             <form  method="post">
                 <div>
                     <label for="nom">Nom :</label>
@@ -198,12 +197,12 @@
                 </div>
 
                 <div class="block1">
-                                <strong style="font-size: 30px;">CONTACT US</strong>
-                                <p>Feel free to get in touch with us via phone or send<br> us a message</p>
-                                <div class="contact">
-                                        <p>+1 800 123 1234</p>
-                                        <p><b>Food-health@website.com</b></p>
-                                 </div>
+                        <strong style="font-size: 30px;">CONTACT US</strong>
+                        <p>Feel free to get in touch with us via phone or send<br> us a message</p>
+                        <div class="contact">
+                            <p>+1 800 123 1234</p>
+                            <p><b>Food-health@website.com</b></p>
+                        </div>
                 </div>
         </div>
         <div class="copy">
